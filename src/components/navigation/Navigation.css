@@ -1,1 +1,22 @@
-/* útfæra */
+.navigation-bar h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.navigation-items {
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding-bottom: 10px;
+}
+
+.navigation-bar li {
+    text-align: center;
+    padding: 10px;
+}
+
+.navigation-items .active{
+    font-weight: bold;
+}

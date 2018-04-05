@@ -1,1 +1,37 @@
-/* útfæra */
+.dept {
+    border-bottom: 1px solid #000;
+    padding: 25px 0px;
+}
+
+.department-closed .department-table {
+    display: none;
+}
+
+.department-heading {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10px 5px;
+}
+
+.open-indicator {
+    padding-right: 10px;
+    font-weight: bold;
+}
+
+.department-table {
+    border-collapse: collapse;
+
+}
+
+.department-table thead th {
+    text-align: left;
+    padding: 10px;
+}
+
+.department-table tbody td {
+    padding: 10px;
+}
+
+.department-table tbody:nth-child(even) tr:nth-child(even) {
+    background-color: #eee;
+}

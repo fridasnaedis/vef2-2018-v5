@@ -1,1 +1,14 @@
-/* útfæra */
+.home h2 {
+    padding: 10px;
+}
+
+.list-item {
+    display: flex;
+    justify-content: space-between;
+    max-width: 400px;
+    padding: 5px;
+}
+
+.list-item-description {
+    font-weight: bold;
+}
